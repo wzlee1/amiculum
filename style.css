@@ -1,0 +1,109 @@
+body{
+	background-color: rgb(26,26,26);
+}
+
+.container-fluid{
+	padding: 0;
+	width: 75%;
+}
+
+.navbar-text{
+	color: white;
+	font-size: 1rem;
+}
+
+#jumbotron-project{
+	background: none;
+	color: white;
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin: 0;
+}
+
+#jumbotron-project-header{
+	font-size: 500%;
+	font-weight: bold;
+}
+
+#jumbotron-project p{
+	color: rgb(150,150,150);
+}
+
+#jumbotron-project .btn{
+	border-radius: 0;
+	font-size: 1em;
+}
+
+#container-image-id{
+	margin-bottom: 10%;
+}
+
+.container-image {
+  position: relative;
+  padding: 0.5%;
+}
+
+.container-image .btn {
+  position: absolute;
+  top: 5%;
+  left: 90%;
+  border-radius: 0;
+/*  padding: 0.5vw 1vw;*/
+}
+
+.modal-content{
+	border-radius: 0;
+}
+
+.modal-title{
+	padding-top: 10%;
+}
+
+.modal-body{
+	padding-bottom: 10%;
+}
+
+.jumbotron-breakout{
+	border-radius: 0;
+}
+
+.hot-topics-header{
+	text-align: center;
+	color: white;
+}
+
+.card{
+	background: none;
+	padding: 0 0.5%;
+	color: white;
+	text-align: center;
+}
+
+.card-text{
+	font-size: 70%;
+	color: rgb(150,150,150);
+}
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 768px) {
+	.container-fluid{
+		width: 100%;
+	}
+	.navbar-text{
+		font-size: 0.8rem;
+	}
+	#jumbotron-project-header{
+		font-size: 300%;
+	}
+	#jumbotron-project p{
+		font-size: 80%;
+	}
+}
+@media (max-width: 576px) {
+  
+}
